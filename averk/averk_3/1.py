@@ -1,5 +1,3 @@
-
-
 hofudborgir = ["Róm", "Washington", "Reykjavík", "París", "Kaupmannahöfn"]
 
 notandi_borg = input("Sláðu inn nafnið á höfuðborg og ég athuga hvort hún sé á listanum: ")

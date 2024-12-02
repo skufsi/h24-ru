@@ -1,5 +1,3 @@
-
-
 borges_file = {}
 word_count = 0
 

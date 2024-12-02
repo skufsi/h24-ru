@@ -13,6 +13,6 @@ bottom_einkunn = min(einkunnir)
 print(f"Einkunnirnar eru: {einkunnir}")
 print(f"Medaleinkunn er: {medal_einkunn}, Hæsta einkunn er: {topp_einkunn}, Lægsta einkunn er: {bottom_einkunn}")
 
-# Man ekki hina adferdina sem sleppur min() og max()
+
 
 
