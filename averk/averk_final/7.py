@@ -10,14 +10,12 @@
 # „Heildarfjöldi orða í skránni er: 37“
 
 han_solo_file = {}
-word_count = 0
 
 with open("HanSolo.txt", "r") as my_file:
     for line in my_file:
         adjust_text = line.replace(".", " ").replace(",", " ").replace(";", " ")
         word_list = adjust_text.split()
         for word in word_list:
-            word_count += 1
             if word in han_solo_file:
                 han_solo_file[word] += 1
             else:
