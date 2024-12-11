@@ -1,3 +1,3 @@
-# h24-ru
+# CodeRU
 
-python verkefni haust 2024
+Ýmisleg verkefni
