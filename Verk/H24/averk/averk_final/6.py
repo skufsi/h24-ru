@@ -26,13 +26,13 @@ class Ball:
     
     def Volume(self):
         calc = round(4 * 3.14 * self.radius, 3)
-        return f"The volume of the circle: {calc}"
+        return f"The volume of the circle: {calc:.2f}"
     
     def __str__(self):
-        return "The radius of the circle: {}".format(self.radius)
+        return "The radius of the circle: {:.2f}".format(self.radius)
     
 def main():
-    number = Ball(20)
+    number = Ball(393.2)
     print(Ball.Volume(number))
     print(number)
 
